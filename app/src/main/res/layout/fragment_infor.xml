@@ -23,10 +23,10 @@
 
             <ImageView
                 android:id="@+id/imglogo"
-                android:layout_width="60dp"
-                android:layout_height="58dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="300dp"/>
+                android:layout_width="69dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="20dp" />
 
             <com.example.project.customTextview.DancingSTextView
                 android:id="@+id/textViewName"

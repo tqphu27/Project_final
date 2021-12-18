@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project" >
         <activity
-            android:name=".InforCompany"
-            android:exported="true" />
-        <activity
-            android:name=".About"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -24,6 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".InforCompany"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".About"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".CompanyInformation"
             android:exported="false"
