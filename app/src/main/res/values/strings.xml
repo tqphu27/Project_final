@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favorite">Favorite</string>
+
+    <string name="Nav_Open">Nav_Open</string>
+    <string name="Nav_Close">Nav_Close</string>
+
+
+</resources>

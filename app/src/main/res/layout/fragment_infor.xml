@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="#F4D1CE">
+        <LinearLayout
+            android:background="#F4D1CE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="60dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="300dp"/>
+
+            <com.example.project.customTextview.DancingSTextView
+                android:id="@+id/textViewName"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#E91E63"
+                android:text="Information's Company"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.project.customTextview.DancingSTextView
+                android:layout_marginTop="45dp"
+                android:id="@+id/textViewNamThanhLap"
+                android:textColor="#C37604"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.project.customTextview.DancingSTextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/textViewLinhVuc"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#8BC34A"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.project.customTextview.DancingSTextView
+                android:layout_marginTop="35dp"
+                android:id="@+id/textViewTruSo"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#03A9F4"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.example.project.customTextview.DancingSTextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/textViewFounder"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#9C27B0"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
