@@ -42,12 +42,15 @@ public class MainActivity extends AppCompatActivity implements Truyen {
 
     @Override
     public void DataCompany(SV sv) {
+
         FragmentInfor fragmentInfor = (FragmentInfor) getSupportFragmentManager().findFragmentById(R.id.fragmentInfor);
+        //tránh lỗi xoay dọc không có dữ liệu
         Configuration configuration = getResources().getConfiguration();
         if (fragmentInfor != null && configuration.orientation == Configuration.ORIENTATION_LANDSCAPE ){
             fragmentInfor.SetInfor(sv);
         }
         else {
+            //nếu ở màn hình dọc sẽ chuyển sang activity khác
             Intent intent = new Intent(MainActivity.this,CompanyInformation.class);
             intent.putExtra("thongTinCongTy", sv);
             startActivity(intent);
