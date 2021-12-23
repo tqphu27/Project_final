@@ -2,6 +2,7 @@ package com.example.project;
 
 import java.io.Serializable;
 
+
 public class SV  implements Serializable{
     private String Ten;
     private int NamThanhLap;

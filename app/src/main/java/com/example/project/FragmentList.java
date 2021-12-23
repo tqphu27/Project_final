@@ -1,6 +1,8 @@
 package com.example.project;
 
+import android.content.ClipData;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -24,19 +26,26 @@ public class FragmentList extends ListFragment {
 
     @Nullable
     @Override
+
+    /*  Khoi tao fragment list
+        Hien thi danh sach cong ty
+    */
+
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         truyen = (Truyen) getActivity();
-
         arrayCompany = new ArrayList<>();
         AddArraySV();
         adapter = new CompanyAdapter(R.layout.row_cty, getActivity(), arrayCompany);
         setListAdapter(adapter);
+
         return inflater.inflate(R.layout.fragment_list, container, false);
     }
+
+    // Bat su kien khi click vao list
     @Override
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-        truyen.DataCompany(arrayCompany.get(position));
+        truyen.DataCompany(arrayCompany.get(position)); //
     }
 
     @Override
@@ -44,11 +53,6 @@ public class FragmentList extends ListFragment {
         super.onDetach();
     }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.main_menu, menu);
-        super.onCreateOptionsMenu(menu, inflater);
-    }
 
     private void AddArraySV(){
         arrayCompany.add(new SV("FPT", 1988, "Telecommunication", "Ha Noi", R.drawable.fpt_logo, R.drawable.fpt_logo, "Truong Gia Binh, Nguyen Van Khoa (CEO)"));

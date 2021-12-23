@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 public class FragmentInfor extends Fragment {
+
     TextView txtTen, txtNamThanhLap, txtLinhVuc, txtTruSo, txtFounder;
     View view;
     ImageView imgLogo;
@@ -21,6 +22,7 @@ public class FragmentInfor extends Fragment {
         AnhXa();
         return view;
     }
+
     public void SetInfor(SV sv) {
         txtTen.setText("Name : " + sv.getTen());
 
@@ -34,6 +36,7 @@ public class FragmentInfor extends Fragment {
 
         imgLogo.setImageResource(sv.getLogo());
     }
+
     private void AnhXa(){
         txtTen = (TextView) view.findViewById(R.id.textViewName);
         txtNamThanhLap = (TextView) view.findViewById(R.id.textViewNamThanhLap);

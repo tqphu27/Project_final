@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Project/app/src/main/res/drawable/color_selector.xml" value="0.403125" />
         <entry key="..\:/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.403125" />
         <entry key="..\:/Project/app/src/main/res/drawable/ux_list.xml" value="0.403125" />
+        <entry key="..\:/Project/app/src/main/res/drawable/ux_select.xml" value="0.403125" />
+        <entry key="..\:/Project/app/src/main/res/layout-land/activity_about.xml" value="0.33" />
+        <entry key="..\:/Project/app/src/main/res/layout-land/activity_infor_company.xml" value="0.25" />
         <entry key="..\:/Project/app/src/main/res/layout-land/activity_main.xml" value="0.336104513064133" />
         <entry key="..\:/Project/app/src/main/res/layout/about.xml" value="0.38697916666666665" />
-        <entry key="..\:/Project/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Project/app/src/main/res/layout/activity_about.xml" value="0.33" />
         <entry key="..\:/Project/app/src/main/res/layout/activity_company_information.xml" value="0.2796296296296296" />
         <entry key="..\:/Project/app/src/main/res/layout/activity_infor_company.xml" value="0.38697916666666665" />
         <entry key="..\:/Project/app/src/main/res/layout/activity_main.xml" value="0.2796296296296296" />

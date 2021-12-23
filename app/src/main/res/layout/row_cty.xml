@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4D1CE">
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_margin="5dp"
-        android:background="#F4D1CE">
+        >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="3dp"
-            android:layout_marginLeft="3dp"
-            android:background="#F4D1CE">
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            >
 
             <ImageView
                 android:layout_width="match_parent"

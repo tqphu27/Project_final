@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo_app"
-        android:label="Ebook"
+        android:label="Company Note"
         android:roundIcon="@drawable/logo_app"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project" >

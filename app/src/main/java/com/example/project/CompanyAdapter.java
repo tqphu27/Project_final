@@ -39,6 +39,9 @@ public class CompanyAdapter extends BaseAdapter  {
         return position;
     }
 
+    /*
+        Su dung View Holder de tai su dung xml item
+    */
     private class ViewHolder{
         TextView txtTen;
         ImageView imgHinh;
