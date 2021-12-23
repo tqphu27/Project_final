@@ -54,12 +54,14 @@ public class CompanyAdapter extends BaseAdapter  {
             holder = new ViewHolder();
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(layout, null);
+            //ánh xạ biến
             holder.txtTen = (TextView) view.findViewById(R.id.textviewTen);
             holder.imgHinh = (ImageView) view.findViewById(R.id.imageviewHinh);
             view.setTag(holder);
         }else {
             holder = (ViewHolder) view.getTag();
         }
+        //truyền giá trị
         SV company = companyList.get(position);
         holder.txtTen.setText(company.getTen());
         holder.imgHinh.setImageResource(company.getHinh());
